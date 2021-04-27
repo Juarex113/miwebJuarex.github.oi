@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <form>
+        Nombre: <input type="text" name="txtnom"><p></p>
+        Apellido: <input type="text" name="txtape" required><span style="color: red;">!!</span> 
+        <br> 
+        Eligue un color: <input type="color">
+        <br>
+        Número: <input type="number">
+        Fecha y hora: <input type="datetime-local"> <br>
+        Correo: <input type="email"><br>
+        Rango: <input type="range"><br>
+
+        <fieldset>
+            <legend>Controles de opción</legend>
+            Empleo actual <br>
+            <input type="radio" name="rdbempleo" value="timecomplet">Tiempo completo<br>
+            <input type="radio" name="rdbempleo" value="timeparcial" checked>Tiempo Parcial<br>
+            <input type="radio" name="rdbempleo" value="time">Tiempo Horas<br>
+            <input type="radio" name="rdbempleo" value="vago">Vago<br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Controles varios</legend>
+            Hobbies <br>
+            <input type="checkbox" >Futbol<br>
+            <input type="checkbox" >Jugar con videojuegos<br>
+            <input type="checkbox" >Tocar instrumento<br>
+            <input type="checkbox" >Vago<br>
+        </fieldset>
+        <p>
+            <select name="select">
+                <option>Perú</option>
+                <option>Colombia</option>
+                <option>Brasil</option>
+                <option>Uruguay</option>
+            </select>
+        </p>
+        <p>
+            Busca tu archivo: <input type="file" accept=".jpg, .png">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
